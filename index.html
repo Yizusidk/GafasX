@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page GafasX</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <style>
+        .hero {
+            background: url('https://png.pngtree.com/png-clipart/20230925/original/pngtree-optic-icon-logo-free-vector-template-glasses-eye-vector-png-image_12686857.png') no-repeat center;
+            background-size: 250px;
+            padding: 150px 0;
+            color: white;
+            text-align: center;
+     
+
+        }
+        
+        .card img { height: 250px; object-fit: cover; }
+        .faq .accordion-button { font-weight: bold; }
+        .map-container { height: 400px; }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GafasX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#caracteristicas">Características</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <h1 style="color:white;">.</h1>
+            <h1 style="color:white;">.</h1>
+            <h1 style="color:white;">.</h1>
+            <h1 style="color:white;">.</h1>
+            <h1 class="fw-bold text-dark">Gafas con Estilo y Protección</h1>
+<p class="lead text-dark">Protección UV, confort y diseño en un solo producto.</p>
+            <a href="#caracteristicas" class="btn btn-primary btn-lg">Ver Más</a>
+            <a href="#" class="btn btn-light btn-lg">Comprar Ahora</a>
+        </div>
+    </header>
+
+    <section id="caracteristicas" class="container py-3">
+        <h2 class="text-center mb-4">Características</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" class="card-img-top" alt="Protección UV">
+                    <div class="card-body">
+                        <h5 class="card-title">Protección UV</h5>
+                        <p class="card-text">Bloquea el 99% de los rayos UV para proteger tus ojos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encyclobjects.com/wp-content/uploads/2023/10/matsuda-sunglass-m3104-B-500x500px-1.jpg.webp" class="card-img-top" alt="Material de Alta Calidad">
+                    <div class="card-body">
+                        <h5 class="card-title">Material Premium</h5>
+                        <p class="card-text">Fabricadas con materiales resistentes y livianos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Diseño Cómodo">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño Moderno</h5>
+                        <p class="card-text">Ajuste perfecto para mayor comodidad durante todo el día.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="testimonios" class="bg-light py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Lo que dicen nuestros clientes</h2>
+        <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Testimonio 1">
+                        <p class="lead">"Increíbles gafas, súper cómodas y protegen realmente del sol."</p>
+                        <p class="fw-bold">- Ana Gómez</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Testimonio 2">
+                        <p class="lead">"Diseño moderno y materiales resistentes. ¡Me encantan!"</p>
+                        <p class="fw-bold">- Carlos Rodríguez</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Testimonio 3">
+                        <p class="lead">"Muy buena relación calidad-precio. Las volvería a comprar."</p>
+                        <p class="fw-bold">- Laura Fernández</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="https://randomuser.me/api/portraits/men/4.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Testimonio 4">
+                        <p class="lead">"Las gafas son ligeras y cómodas, perfectas para el día a día."</p>
+                        <p class="fw-bold">- Pedro Martínez</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+    </section>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 GafasX. Síguenos en redes sociales</p>
+        <div>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
